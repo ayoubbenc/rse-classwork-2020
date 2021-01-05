@@ -1,3 +1,4 @@
 .DS_Store
 week05-testing/__pycache__/test_times.cpython-38-pytest-5.4.3.pyc
 week05-testing/__pycache__/times.cpython-38.pyc
+.coverage
