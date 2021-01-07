@@ -1,4 +1,4 @@
 datetime
 pytest
 pytest-cov
-yaml
+pyyaml
