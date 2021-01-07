@@ -4,7 +4,7 @@ import yaml
 
 """PARAMETRISATION OF UNIT TESTS WITH FIXTURE"""
 
-with open("fixture.yaml", 'r') as yamlfile:
+with open("week05-testing/fixture.yaml", 'r') as yamlfile:
     fixture = yaml.safe_load(yamlfile)
 
 @pytest.mark.parametrize("test_name", fixture)
